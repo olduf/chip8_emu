@@ -36,7 +36,7 @@ A S D F
 Z X C V
 ```
 
-Not configurable, Works much better a `QWERTY` keyboard.
+Not configurable, works much better a `QWERTY` keyboard.
 
 #### Options
 - -h, --help: show help
