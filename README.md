@@ -1,7 +1,7 @@
 # Chip8 Emulator
-Chip8 emulator built in C++. Uses SFML.
+Chip8 emulator built in C++ (I am not a professional C++ dev.). Uses SFML.
 
-I am not a professional C++ dev.
+Pretty sure it's buggy, but it passes the test roms, and runs space invaders and tetris.
 
 ## Requirement
  - [SFML 2.5](https://www.sfml-dev.org/index.php)
@@ -24,6 +24,9 @@ In a terminal, navigate to the project folder.
 - -p, --path: path to the rom you want to load
 
 ## Included ROMs
+### Games
+- `INVADERS`
+- `TETRIS`
 ### Test ROMs
 - `BC_test.ch8` (BestCoder)
 - `chip8-test-rom.ch8` (Sergey Naydenov)

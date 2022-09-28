@@ -19,11 +19,19 @@ SFMLSynthetizer::SFMLSynthetizer() {
     this->sound.setBuffer(this->soundBuffer);
     this->sound.setLoop(true);
   }
+
+  this->playing = false;
 }
 
 void SFMLSynthetizer::play() {
-  this->sound.play();
+  if (!this->playing) {
+    this->playing = true;
+    this->sound.play();
+  }
 }
 void SFMLSynthetizer::stop() {
-  this->sound.stop();
+  if (this->playing) {
+    this->playing = false;
+    this->sound.stop();;
+  }
 }

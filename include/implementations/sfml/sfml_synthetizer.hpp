@@ -14,6 +14,7 @@ public:
   void stop();
 
 private:
+  bool playing;
   sf::Sound sound;
   sf::SoundBuffer soundBuffer;
 };
