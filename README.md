@@ -19,6 +19,25 @@ In a terminal, navigate to the project folder.
 ### Application
 `./build/standalone/chip8_emu --path <path to the rom>`
 
+### Key Binding
+Here is the `COSMAC VIP` keypad:
+```
+1 2 3 C
+4 5 6 D
+7 8 9 E
+A 0 B F
+```
+
+It is bound to these keys:
+```
+1 2 3 4
+Q W E R
+A S D F
+Z X C V
+```
+
+Not configurable, Works much better a `QWERTY` keyboard.
+
 #### Options
 - -h, --help: show help
 - -p, --path: path to the rom you want to load
