@@ -12,9 +12,3 @@ Registers::Registers() {
 }
 
 }
-
-//
-//   I    = 0;    // Reset index register
-//   sp   = 0;    // Reset stack pointer
-//
-//   // Reset timers

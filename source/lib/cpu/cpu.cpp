@@ -6,7 +6,6 @@ Cpu::Cpu(MMU* mmu) {
   this->mmu = mmu;
 }
 
-// TODO -> refactor this
 void Cpu::tick() {
   uint16_t opCode = this->mmu->getShort(this->registers.pc);
 
